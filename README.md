@@ -18,12 +18,12 @@ npm install
 ```javascript
 npm start
 ```
-#### 4、打开浏览器浏览 http://localhost:3000/，就可以访问了！
+#### 4、打开浏览器浏览 http://localhost:3000/ !
 基本的应用框架搭好了，但是每次文件修改后，必须在浏览器中刷新（F5），才能看到最新修改后的效果，每次这样的操作，是不是很繁琐呢？如何无刷新监控文件变化呢？这个时候自动化构建工具 grunt、gulp 就派上用场了！这里只讨论 gulp ！
 
 ### 二、加入 Gulp 自动化
 
-#### 1、安装gulp，进入项目目录，执行命令：(ps:gulp 首先需全局安装一次)
+#### 1、安装 gulp，进入项目目录，执行命令：(Ps：gulp 首先需全局安装一次)
 ```bash
 npm install gulp --save-dev 
 ```
@@ -135,4 +135,4 @@ gulp.task('default', ['browser-sync']);
 ```javascript
 gulp 
 ```
-运行完命令，会自动打开浏览器，大功告成！
+运行完命令，会自动打开浏览器，大功告成！Ps：以上的gulp插件，可以根据自己需求自己配置，
