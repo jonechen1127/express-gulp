@@ -38,7 +38,7 @@ npm install node-sass -dev                      // gulp-sass 依赖于此
 npm install gulp-sass -dev                      // 构建编译sass
 npm install gulp-sourcemaps -dev                // sassmaps，生成的css文件下面会加上这个
 ```
-这里需要注意，在安装 gulp-sass 的时候，需要先安装 node-sass，并且在安装的时候，有可以会安装失败，这个时候，可以用 cnpm 试一下
+这里需要注意，在安装 gulp-sass 的时候，需要先安装 node-sass，并且在安装的时候，有可能会安装失败，这个时候，可以用 cnpm 试一下
 ```bash
 cnpm node-sass gulp-sass --save-dev
 ```
@@ -46,7 +46,7 @@ cnpm node-sass gulp-sass --save-dev
 ```bash
 npm install browser-sync --save-dev
 ```
-browser-sync 是重头戏，可以监控文件的变化，实现自动刷新，具体的API用法可以参考(官方文档)[[http://www.browsersync.cn/docs/gulp/]]！
+browser-sync 是重头戏，可以监控文件的变化实现自动刷新，具体的API用法可以参考(官方文档)[http://www.browsersync.cn/docs/gulp/]！
 ### 4、配置gulpfile.js
 ```bash
 var gulp = require('gulp');
@@ -60,6 +60,7 @@ var jade = require('gulp-jade');
 var rename = require('gulp-rename');
 var del = require('del');
 var uglify = require('gulp-uglify');
+
 // dev task start DONE can not compile the sass or less file
 gulp.task('sass', function() {
     return gulp
@@ -128,7 +129,6 @@ gulp.task('jade', function() {
 });
 
 gulp.task('dist', ['jade', 'js']);
-
 gulp.task('default', ['browser-sync']);
 ```
 ### 运行
