@@ -1,4 +1,4 @@
-# 基于 Express+Gulp+BrowserSync 搭建一套高性能的前端开发环境
+## 基于 Express+Gulp+BrowserSync 搭建一套高性能的前端开发环境
 Express 是比较经典的，也是最常用的 Nodejs Web框架。
 ### 一、Express 快速构建一个web应用程序或架
 #### 1、首先用全局安装 express-generator!
