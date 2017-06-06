@@ -29,14 +29,14 @@ npm install gulp --save-dev
 ```
 #### 2、安装所需的 gulp 插件
 ```bash   
-npm install gulp-uglify --save -dev             // js压缩插件
-npm install gulp-autoprefixer --save -dev       // css3文件前缀
-npm install gulp-nodemon --save -dev            // 项目自动重启
-npm install gulp-rename --save -dev             // 重命名
-npm install del --save -dev                     // 文件删除模块
-npm install node-sass -dev                      // gulp-sass 依赖于此  
-npm install gulp-sass -dev                      // 构建编译sass
-npm install gulp-sourcemaps -dev                // sassmaps，生成的css文件下面会加上这个
+npm install gulp-uglify --save-dev             // js压缩插件
+npm install gulp-autoprefixer --save-dev       // css3文件前缀
+npm install gulp-nodemon --save-dev            // 项目自动重启
+npm install gulp-rename --save-dev             // 重命名
+npm install del --save-dev                     // 文件删除模块
+npm install node-sass --save-dev                      // gulp-sass 依赖于此  
+npm install gulp-sass --save-dev                      // 构建编译sass
+npm install gulp-sourcemaps -save-dev                // sassmaps，生成的css文件下面会加上这个
 ```
 这里需要注意，在安装 gulp-sass 的时候，需要先安装 node-sass，并且在安装的时候，有可能会安装失败，这个时候，可以用 cnpm 试一下
 ```bash
