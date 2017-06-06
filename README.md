@@ -1,7 +1,7 @@
 # 基于 Express+Gulp+BrowserSync 搭建一套高性能的前端开发环境
 Express 是比较经典的，也是最常用的 Nodejs Web框架。
-### Express 快速构建一个web应用程序或架
-#### 1、首先用全局安装 express-generator，express-generator 是 express 官方提供的生成器，它提供了项目所需的中间件，使用起来非常方便！
+### 一、Express 快速构建一个web应用程序或架
+#### 1、首先用全局安装 express-generator!
 ```javascript
 npm install express-generator -g
 ```
@@ -21,7 +21,7 @@ npm start
 #### 4、打开浏览器浏览 http://localhost:3000/，就可以访问了！
 基本的应用框架搭好了，但是每次文件修改后，必须在浏览器中刷新（F5），才能看到最新修改后的效果，每次这样的操作，是不是很繁琐呢？如何无刷新监控文件变化呢？这个时候自动化构建工具 grunt、gulp 就派上用场了！这里只讨论 gulp ！
 
-### 加入 Gulp 自动化
+### 二、加入 Gulp 自动化
 
 #### 1、安装gulp，进入项目目录，执行命令：(ps:gulp 首先需全局安装一次)
 ```bash
