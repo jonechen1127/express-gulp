@@ -46,7 +46,7 @@ cnpm node-sass gulp-sass --save-dev
 ```bash
 npm install browser-sync --save-dev
 ```
-browser-sync 是重头戏，可以监控文件的变化实现自动刷新，具体的API用法可以参考(官方文档)[http://www.browsersync.cn/docs/gulp/]！
+browser-sync 是重头戏，可以监控文件的变化实现自动刷新，具体的API用法可以参考[官方文档](http://www.browsersync.cn/docs/gulp/)！
 ### 4、配置gulpfile.js
 ```bash
 var gulp = require('gulp');
