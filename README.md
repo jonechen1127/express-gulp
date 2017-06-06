@@ -136,4 +136,5 @@ gulp.task('default', ['browser-sync']);
 gulp 
 ```
 运行完命令，会自动打开浏览器，大功告成！
-Ps：以上的 (gulp 插件)[http://gulpjs.com/plugins/]，可以根据自己需求自己配置，gulp 插件
+
+Ps：以上的 [gulp 插件](http://gulpjs.com/plugins/)，可以根据自己需求自己配置，gulp 插件
